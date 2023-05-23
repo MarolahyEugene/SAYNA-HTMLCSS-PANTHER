@@ -1,0 +1,311 @@
+@font-face {
+    font-family: 'beyno';
+    src: url(../fonts/beyno/BEYNO.ttf);
+}
+
+@font-face {
+    font-family: 'panther';
+    src: url(../fonts/panther/PantheraRegular.ttf);
+}
+
+@font-face {
+    font-family: 'Cantarell-Regular';
+    src: url(../fonts/cantarell/Cantarell-Regular.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+.navbar {
+    display: flex;
+    align-items: top;
+    justify-content: space-between;
+}
+
+.flex {
+    display: flex;
+    background-image: url('../images/All_pages/arrière_plan.png');
+    background-size: cover;
+}
+
+.link-reseaux-sociaux {
+    width: 25px;
+    display: flex;
+    margin: 0 50px;
+    flex-wrap: wrap;
+    border-left: 3px solid #F2CEF2;
+    height: fit-content;
+}
+
+.link-reseaux-sociaux .link-top {
+    flex-grow: 1;
+    border-right: 3px solid #F2CEF2;
+    height: 40vh;
+}
+
+.link-icon {
+    min-height: 5vh;
+    max-height: 100vh;
+}
+
+.link-icon a {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 13px;
+    margin-top: 20px;
+}
+
+
+nav {
+    display: flex;
+    flex-grow: 1;
+    margin: 10px;
+}
+
+.link-navbar a {
+    font-family: 'beyno';
+    margin: 2px 20px;
+    padding: 5px;
+    font-size: 32px;
+}
+
+
+a {
+    color: white;
+}
+
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section {
+    padding: 20px;
+    float: right;
+}
+
+section h1 {
+    font-family: 'panther';
+    font-size: 68px;
+    color: #F2CEF2;
+}
+
+section h2 {
+    font-family: 'BEYNO';
+    font-size: 32px;
+    color: #F2CEF2;
+}
+
+
+
+section img {
+    width: 100vh;
+}
+
+.logo a img {
+    align-items: center;
+}
+
+p,
+section a {
+    color: white;
+    font-family: 'Cantarell-Regular';
+    font-size: 16px;
+}
+
+.images {
+    display: flex;
+    align-items: center;
+}
+
+.bloc-img {
+    display: flex;
+    background-color: #021740;
+}
+
+h2 {
+    font-family: 'BEYNO';
+    color: #F2CEF2;
+    padding: 15px 0;
+}
+
+.desc a {
+    font-family: 'Cantarell-Regular';
+    margin: 25px 0;
+    font-size: 14px;
+
+}
+
+.images .desc {
+    padding: 35px 20px;
+}
+
+.desc {
+    min-height: 28vh;
+    max-height: 30vh;
+    min-width: 20vh;
+    max-width: 35vh;
+    width: fit-content;
+}
+
+.desc p {
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+
+.bloc-img img {
+    max-width: 35vh;
+    min-width: 20vh;
+    min-height: 25vh;
+    max-height: 38vh;
+}
+
+.contenue {
+    margin-top: 150px;
+    display: flex;
+}
+
+.contenue .left {
+    width: 50%;
+    padding: 0 25px;
+}
+
+.contenue .right {
+    min-width: 20%;
+    max-width: 35%;
+    padding: 0 25px;
+
+}
+
+.contenue .left p {
+    margin: 25px 0;
+    font-family: 'Cantarell-Regular';
+    font-size: 14px;
+    font-weight: 200;
+}
+
+.left small {
+    font-family: 'Cantarell-Regular';
+    font-size: 10px;
+    color: aliceblue;
+}
+
+.left ul li {
+    list-style: none;
+    margin: 4px 10px;
+}
+
+.bouton {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+button {
+    flex-grow: 1;
+    padding: 10px 15px;
+    background-color: #07338C;
+    color: white;
+    border-radius: 7px;
+    border: none;
+    text-align: center;
+    margin: auto 10px;
+}
+
+.contente {
+    display: block;
+    justify-content: center;
+    margin: 250px 0 50px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    min-width: 30%;
+    max-width: 100%;
+    min-height: 50%;
+    /* height: 50%; */
+    max-height: 60%;
+}
+
+.right .contente img {
+    position: relative;
+    min-width: 60%;
+    max-width: 80%;
+    min-height: 45vh;
+    max-height: 60vh;
+    top: -200px;
+    left: 10%;
+    right: 10%;
+    justify-content: center;
+}
+
+.right img {
+    min-width: 60%;
+    max-width: 100%;
+    min-height: 45vh;
+    max-height: 60vh;
+}
+
+.infos {
+    margin: 15px 15px 0;
+}
+
+
+.bloc-detail {
+    display: flex;
+    font-family: 'Cantarell-Regular';
+    font-size: 14px;
+    flex-wrap: nowrap;
+}
+
+.bloc-detail span {
+    justify-content: flex-start;
+    padding: 5px;
+    min-width: 70px;
+}
+
+.detail {
+    position: relative;
+    padding-bottom: 0;
+    display: block;
+    top: -180px;
+}
+
+.detail h1 {
+    text-align: center;
+    margin: 15px 0;
+}
+
+.footer {
+    background-image: url('../images/Accueil/Pantherhome7.png');
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.forme {
+    border-radius: 25%;
+    margin: 25px auto;
+    background-color: #ffffff;
+    width: 50%;
+    text-align: center;
+    padding: 100px;
+}
+
+form {
+    display: block;
+}
+
+input,
+#message {
+    width: 520px;
+    height: 56px;
+    border-radius: 50%;
+    padding: 10px 5px;
+}
