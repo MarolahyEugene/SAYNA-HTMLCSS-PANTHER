@@ -1,0 +1,284 @@
+@font-face {
+    font-family: 'beyno';
+    src: url(../fonts/beyno/BEYNO.ttf);
+}
+
+@font-face {
+    font-family: 'panther';
+    src: url(../fonts/panther/PantheraRegular.ttf);
+}
+
+@font-face {
+    font-family: 'Cantarell-Regular';
+    src: url(../fonts/cantarell/Cantarell-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'WakandaForever-Regular';
+    src: url(../fonts/wakandaForever/WakandaForever-Regular.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+body {
+    background-image: url('../images/All_pages/arrière_plan.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body .titre {
+    font-family: 'WakandaForever-Regular';
+    letter-spacing: 7px;
+    margin: 50px 40px;
+    word-spacing: 5px;
+    font-weight: 200;
+    text-align: start;
+    padding-left: 50px;
+}
+
+.titre h3 {
+    margin: 10px auto;
+}
+
+#transcription {
+    margin: 20px 10px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: auto 50px;
+    margin: 20px 35px;
+}
+
+.link-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto 20px;
+}
+
+.link-head a {
+    margin: auto 15px;
+    color: antiquewhite;
+    font-family: 'beyno';
+    padding: 5px;
+    font-size: 32px;
+}
+
+h1 {
+    font-family: 'beyno';
+    margin: 2px 20px;
+    padding: 5px;
+    font-size: 32px;
+    color: rgb(255, 255, 255);
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 50px;
+}
+
+
+.left-section,
+.right-section {
+    min-width: 40%;
+    max-width: 50%;
+    min-height: 45%;
+    margin: auto 25px;
+
+}
+
+.left-section img {
+    min-width: 550px;
+    max-width: 950px;
+    min-height: 350px;
+    max-height: 650px;
+}
+
+.right-section {
+    flex-grow: 1;
+    min-width: 30%;
+    max-width: 40%;
+    max-height: fit-content;
+    padding: 20px;
+}
+
+.separateur {
+    height: 2px;
+    background-image: url('../images/Enigme/Pantherenigme3.png');
+}
+
+.desc {
+    display: flex;
+    flex-grow: 1;
+    background-image: url('../images/Enigme/Pantherenigme2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 90%;
+    margin: 20px auto;
+    font-family: 'Cantarell-Regular';
+    font-size: 10px;
+    padding: 20px 100px;
+    min-height: 40vh;
+    min-width: 46vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.desc p {
+    margin: 5px auto;
+}
+
+.desc span {
+    margin: 15px auto;
+}
+
+.desc div {
+    text-align: center;
+}
+
+#trad {
+    font-family: 'Cantarell-Regular';
+    margin: 10px 10px 50px;
+}
+
+#font-forever {
+    letter-spacing: 10px;
+    font-family: 'WakandaForever-Regular';
+}
+
+.left-section h4 {
+    margin: 30px auto;
+    font-family: 'Cantarell-Regular';
+}
+
+.left-section form {
+    margin: 5px auto 50px;
+    text-align: center;
+}
+
+.left-section input {
+    background-color: transparent;
+    border-radius: 38px;
+    width: 520px;
+    height: 56px;
+    margin-bottom: 50px;
+    padding-left: 20px;
+}
+
+.left-section button {
+    background-color: #F2CEF2;
+    width: 172px;
+    height: 54px;
+    border-radius: 38px;
+    color: #021740;
+}
+
+/* ------------ footer --------------- */
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-image: url('../images/All_pages/back_footer.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.f-right {
+    display: block;
+    min-width: 100vh;
+    max-width: max-content;
+}
+
+.f-right .f-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0;
+}
+
+.inline-bloc img {
+    max-width: 10vh;
+    max-height: 10vh;
+}
+
+.f-right .f-bottom,
+.f-bottom ul {
+    display: flex;
+    color: #ffffff;
+}
+
+.f-bottom ul {
+    margin: 0 15px;
+}
+
+.f-bottom ul li {
+    margin: 0 10px;
+    padding: 0 2px;
+}
+
+.f-bottom {
+    margin-top: 50px;
+    justify-content: flex-start;
+    font-family: 'Cantarell-Regular';
+    font-size: 14px;
+}
+
+.f-left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    min-width: 50vh;
+    max-width: 85vh;
+    background-image: url('../images/All_pages/footer1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
+    margin-right: 50px;
+}
+
+
+footer h3 {
+    color: #ffffff;
+    font-family: 'Cantarell-Regular';
+    letter-spacing: 28px;
+    font-size: 22px;
+}
+
+footer a {
+    margin: auto 5px;
+}
+
+.sep {
+    flex-grow: 1;
+    height: 150px;
+    background-image: url('../images/All_pages/arrière_plan.png');
+}
+
+.inline-bloc {
+    display: block;
+    margin: 25px 20px auto;
+}
+
+.flex-bloc {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    height: 10vh;
+}
+
+
+/*  -------------- End footer ------------- */

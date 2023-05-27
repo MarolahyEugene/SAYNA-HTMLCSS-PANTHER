@@ -1,0 +1,232 @@
+@font-face {
+    font-family: 'beyno';
+    src: url(../fonts/beyno/BEYNO.ttf);
+}
+
+@font-face {
+    font-family: 'panther';
+    src: url(../fonts/panther/PantheraRegular.ttf);
+}
+
+@font-face {
+    font-family: 'Cantarell-Regular';
+    src: url(../fonts/cantarell/Cantarell-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'WakandaForever-Regular';
+    src: url(../fonts/wakandaForever/WakandaForever-Regular.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+body {
+    background-image: url('../images/All_pages/arrière_plan.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: auto 50px;
+    margin: 20px 35px;
+}
+
+.link-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto 20px;
+}
+
+.link-head a {
+    margin: auto 15px;
+    color: antiquewhite;
+    font-family: 'beyno';
+    padding: 5px;
+    font-size: 32px;
+}
+
+.fond-top {
+    background-color: rgba(65, 86, 93, 0.252);
+    background-image: url('../images/Wakanda/Pantherwakanda1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 120%;
+    padding: 0 150px;
+    margin: 0;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.content-fond h1 {
+    margin: 20px auto;
+    font-family: 'BEYNO';
+}
+
+.content-fond p {
+    font-family: 'Cantarell-Regular';
+    font-size: small;
+    width: 50%;
+}
+
+.content-fond h3 {
+    margin: 20px auto;
+    font-family: 'WakandaForever-Regular';
+    word-spacing: 5px;
+    letter-spacing: 10px;
+}
+
+.contente {
+    margin: 0;
+    background-image: url('../images/Wakanda/Pantherwakanda2.png');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+}
+
+.flex h2 {
+    font-family: 'BEYNO';
+    margin: 30px 30px;
+    color: #F2CEF2;
+}
+
+.flex p {
+    margin: 20px 30px;
+    font-family: 'Cantarell-Regular';
+    font-size: small;
+}
+
+.w-right img {
+    width: 520px;
+    height: 400px;
+}
+
+.link-movie {
+    margin: 50px 30px;
+    height: 15%;
+    display: flex;
+    background-color: #07338C;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.link-movie a {
+    margin: 5px;
+    font-family: 'Cantarell-Regular';
+}
+
+/* ------------------- footer -------------- */
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-image: url('../images/All_pages/back_footer.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.f-right {
+    display: block;
+    min-width: 100vh;
+    max-width: max-content;
+}
+
+.f-right .f-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0;
+}
+
+.inline-bloc img {
+    max-width: 10vh;
+    max-height: 10vh;
+}
+
+.f-right .f-bottom,
+.f-bottom ul {
+    display: flex;
+    color: #ffffff;
+}
+
+.f-bottom ul {
+    margin: 0 15px;
+}
+
+.f-bottom ul li {
+    margin: 0 10px;
+    padding: 0 2px;
+}
+
+.f-bottom {
+    margin-top: 50px;
+    justify-content: flex-start;
+    font-family: 'Cantarell-Regular';
+    font-size: 14px;
+}
+
+.f-left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    min-width: 50vh;
+    max-width: 85vh;
+    background-image: url('../images/All_pages/footer1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
+    margin-right: 50px;
+}
+
+
+footer h3 {
+    color: #ffffff;
+    font-family: 'Cantarell-Regular';
+    letter-spacing: 28px;
+    font-size: 22px;
+}
+
+footer a {
+    margin: auto 5px;
+}
+
+.sep {
+    flex-grow: 1;
+    height: 150px;
+    background-image: url('../images/All_pages/arrière_plan.png');
+}
+
+.inline-bloc {
+    display: block;
+    margin: 25px 20px auto;
+}
+
+.flex-bloc {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    height: 10vh;
+}
+
+/* ------------------- footer -------------- */
